@@ -31,10 +31,10 @@ class Stateful_State extends State<Lists>{
     return Scaffold(
       body:
       Container(
-        decoration:BoxDecoration(
+        /*decoration:BoxDecoration(
         image: DecorationImage(image: AssetImage("images/splash.jpg"),
         fit: BoxFit.cover),
-        ),
+        ),*/
         child: _myListView(context),
       )
     );

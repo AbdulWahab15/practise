@@ -4,6 +4,7 @@ void main(){
   runApp(MaterialApp(
     title: "ListView",
     home: Lists(),
-    debugShowCheckedModeBanner: false,
+    debugShowCheckedModeBanner: false
+    ,
   ));
 }
